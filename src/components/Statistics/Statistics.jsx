@@ -2,7 +2,6 @@ import { LeaveFeedback } from './Statistics.styled';
 import PropTypes from 'prop-types';
 
 const Statistics = ({ options, countTotal, positiveFeedback }) => {
-  // const arrOptions = Object.keys(options);
   return (
     <div>
       {Object.keys(options).map(item => (
